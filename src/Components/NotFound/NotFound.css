@@ -1,0 +1,30 @@
+#NotF_1{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    height: 100vh;
+}
+#NotF_1B{
+    display: grid;
+    grid-template-rows: 25% 30% 35% 10%;
+    text-align: center;
+    margin: 5vh;
+}
+
+#NotF_1B1{
+    font-weight: bold;
+    font-size: 180%;
+    padding-top: 3vh;
+}
+#NotF_1B2{
+    text-align: center;
+}
+#NotF_1B2A{
+    width: 180px;
+}
+#NotF_1B3{
+    text-align: center;
+    font-size: 120%;
+}
+#NotF1F{
+    text-align: center;
+}

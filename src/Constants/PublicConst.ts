@@ -11,3 +11,13 @@
     Fondo8:"https://res.cloudinary.com/dlnc8e8ts/image/upload/v1735441231/CV/yfekijsqmmx1yie6igac.jpg",
     Fondo9:"https://res.cloudinary.com/dlnc8e8ts/image/upload/v1736135993/CV/xfnrqzvtekkzylk2mt3b.png"
   }
+
+  export const menu = {
+    Menu1:"ACCESORIOS CELULARES",
+    Menu2:"BAFLES",
+    Menu3:"YANBAL",
+    Menu4:"CAMARAS DE VIGILANCIA",
+    Menu5:"ELECTRODOMESTICOS",
+    Menu6:"PAPELERIA",
+    Menu7:"MOTEROS"
+  }

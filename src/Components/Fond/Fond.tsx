@@ -2,7 +2,7 @@ import React  from 'react';
 import { Image, Box} from "@chakra-ui/react"
 import { image } from "../../Constants/PublicConst.ts";
 function Fond() {
-  return (    
+  return (     
     <Box  opacity={"0.2"}>
       <Image top={"82vh"} left={"10%"} position={"absolute"} src= {image.Fondo7}  alt="Fail"/>
       <Image top={"70vh"} left={"85%"} position={"absolute"} src= {image.Fondo8}  alt="Fail"/>

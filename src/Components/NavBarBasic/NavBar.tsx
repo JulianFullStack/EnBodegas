@@ -26,4 +26,3 @@ function NavBar() {
   );
 }
 export default NavBar;
-//display= "flex" justifyContent= "right" alignItems="center"

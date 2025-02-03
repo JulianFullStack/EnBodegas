@@ -20,13 +20,13 @@ const Start = () => {
                     </Box>                       
                 </Box> 
                 <Box textAlign={"center"} > 
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu1}</Button></Link> <br />
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu2}</Button></Link> <br />
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu3}</Button></Link> <br />
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu4}</Button></Link> <br />
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu5}</Button></Link> <br />
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu6}</Button></Link> <br />
-                    <Link href="/home"><Button variant={"itemButton"}>{menu.Menu7}</Button></Link>                 
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu1}</Button></Link> <br />
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu2}</Button></Link> <br />
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu3}</Button></Link> <br />
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu4}</Button></Link> <br />
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu5}</Button></Link> <br />
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu6}</Button></Link> <br />
+                    <Link href="/8w"><Button variant={"itemButton"}>{menu.Menu7}</Button></Link>                 
                 </Box>                           
             </Box>
         </Box>

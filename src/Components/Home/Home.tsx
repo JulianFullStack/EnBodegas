@@ -4,6 +4,7 @@ import Pag from "../Pag/Pag.tsx";
 import { Select } from "@chakra-ui/select"
 import  {MyCard}  from "../Card/Card.tsx";
 import { menu } from "../../Constants/PublicConst.ts";
+import { products } from "../../Constants/PublicConst.ts";
 import React  from 'react';
 export default () => {
   const scroll =() => {
@@ -23,17 +24,11 @@ export default () => {
       <NavBar/>
       <Box  bg={"#4369ca"} color={"white"} display= {"flex"} alignItems={"end"} justifyContent={"center"}>
         <Grid  gridTemplateColumns={"50% 50%"} w={"400px"} marginBottom={"5px"}>
-        <Select w={"190px"} bg={"whithe"} color={"#4369ca"} textAlign={"center"} placeholder="Orden A a Z" h={"30px"}>
-          <option value="1">Orden Z a A</option>
-          <option value="2">Orden 0 a 9</option>
-          <option value="3">Orden 9 a 0</option>
-          <option value="3">Orden -99% a -1%</option>
-          <option value="3">Orden -1% a -99%</option>
+        <Select w={"190px"} bg={"whithe"} color={"#4369ca"} textAlign={"center"} placeholder="Orden alfabetico" h={"30px"}>
+          <option value="2">Orden por Precio</option>
+          <option value="3">Orden por Descuento</option>
         </Select>
-        <Select w={"190px"} bg={"whithe"} color={"#4369ca"} textAlign={"center"} placeholder="Filtarado" h={"30px"}>
-          <option value="1">Con descuento</option>
-          <option value="2">Entrega inmediata</option>
-          <option value="2">{menu.Menu1}</option>
+        <Select w={"190px"} bg={"whithe"} color={"#4369ca"} textAlign={"center"} placeholder= {menu.Menu1} h={"30px"}>
           <option value="2">{menu.Menu2}</option>
           <option value="2">{menu.Menu3}</option>
           <option value="2">{menu.Menu4}</option>
@@ -47,7 +42,10 @@ export default () => {
         <img  src="https://res.cloudinary.com/dlnc8e8ts/image/upload/v1737232759/CV/fthopygpdngsupmfja7z.png" alt=""/>
       </Box>
         <SimpleGrid p={"10px"} spacing={10} minChildWidth={"250px"}>
-        <MyCard /><MyCard /><MyCard /><MyCard /><MyCard /><MyCard /><MyCard />
+        {products.map((prod) => (<MyCard Products={prod} />))}
+        {products.map((prod) => (<MyCard Products={prod} />))}
+        {products.map((prod) => (<MyCard Products={prod} />))}
+        {products.map((prod) => (<MyCard Products={prod} />))}
         </SimpleGrid>  
         <Pag/>
     </Grid>
